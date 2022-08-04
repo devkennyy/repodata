@@ -11,16 +11,17 @@ git clone https://github.com/yourUsername/repodata.git
 > **Note**
 > Make sure to replace `yourUsername` with your username
 
-<!--
 3. Install dependancies 
 ```console 
 npm run install
 ```
+
 4. Run the server
 ```console 
-npm run dev
+http-server
 ```
--->
+
+5. Navigate to  `https://localhost:8080/`
 
 ## 🛣️ Roadmap
 - [ ] Add a filter system
@@ -34,7 +35,7 @@ npm run dev
 - [ ] Disable the right button if at end
 - [ ] Last updated should be a legible time
 - [ ] Format table (make some fields small)
-- [ ] Center username input
+- [x] Center username input
 
 ## 🤝 Contributions
 Contributions are more than welcome!
