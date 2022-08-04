@@ -6,12 +6,14 @@ Provides user specific repository information
 
 ## 🛣️ Roadmap
 - [ ] Add a filter system
-- [ ] Check if user exists
+- [x] Check if user exists
 - [ ] Hide/change null values (N/A)
 - [ ] Add a search system
 - [ ] Light theme/dark theme toggle
 - [ ] Show languages as badges
 - [ ] Show content on new line 
+- [ ] Disable the left button if at start
+- [ ] Disable the right button if at end
 - [ ] Last updated should be a legible time
 - [ ] Format table (make some fields small)
 - [ ] Center username input
