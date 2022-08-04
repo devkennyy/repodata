@@ -28,13 +28,11 @@ function requestUserRepos(username) {
       li.classList.add("list-group-item");
 
       li.innerHTML = `
-                <p><strong>Repo:</strong> ${data[i].name}</p>
-                <p><strong>Description:</strong> ${data[i].description}</p>
-                <p><strong>URL:</strong> <a href="${data[i].html_url}">${data[i].html_url}</a></p>
-                <p><strong>Stars:</strong> ${data[i].stargazers_count}</p>
-                <p><strong>Forks:</strong> ${data[i].forks_count}</p>
-                <p><strong>Language:</strong> ${data[i].language}</p>
-                <footer><strong>Last Updated:</strong> ${data[i].updated_at}</footer>
+                <p><strong>📛 Repo: <br/></strong> ${data[i].name}</p>
+                <p><strong>📙 Description: <br/></strong> ${data[i].description}</p>
+                <p><strong>🔗 URL: <br/></strong> <a href="${data[i].html_url}">${data[i].html_url}</a></p>
+                <p><strong>⭐ Stars:</strong> ${data[i].stargazers_count}</p>
+                <p><strong>🍴 Forks:</strong> ${data[i].forks_count}</p>
             `;
 
       ul.appendChild(li);
