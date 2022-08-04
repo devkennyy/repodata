@@ -1,8 +1,6 @@
 # 📊 RepoData
 
-Provides user specific repository information 
-![Demo Image](https://user-images.githubusercontent.com/105208736/182770462-dcd4812b-b823-4676-8156-b9fe52673fe1.png)
-<!-- possibly add badges? -->
+![Demo Image](https://user-images.githubusercontent.com/105208736/182789236-8e387a4d-a9ff-4aca-8906-af0a1e7725bd.png)
 
 ## 🛣️ Roadmap
 - [ ] Add a filter system
