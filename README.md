@@ -13,7 +13,7 @@ git clone https://github.com/yourUsername/repodata.git
 
 3. Install dependancies 
 ```console 
-npm run install
+npm install
 ```
 
 4. Run the server
