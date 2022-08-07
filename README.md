@@ -28,7 +28,7 @@ http-server
 - [x] Check if user exists
 - [ ] Hide/change null values (N/A)
 - [ ] Add a search system
-- [ ] Light theme/dark theme toggle
+- [x] Light theme/dark theme toggle
 - [ ] Show languages as badges
 - [ ] Show content on new line 
 - [ ] Disable the left button if at start
