@@ -94,12 +94,12 @@ function toggleTheme() {
 		heading.style.color = 'white';
 		label.style.color = 'white';
 		label.style.color = 'white';
-		label.innerHTML = 'light theme';
+		label.innerHTML = '☀️ theme';
 	} else {
 		document.body.style.background = 'white';
 		flag = true;
 		heading.style.color = 'black';
 		label.style.color = 'black';
-		label.innerHTML = 'dark theme';
+		label.innerHTML = '🌙 theme';
 	}
 }
