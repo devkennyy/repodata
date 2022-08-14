@@ -45,6 +45,7 @@ function requestUserRepos(username) {
 			//   document.getElementById("userRepos").appendChild(rateLimit);
 		} else {
 			for (let i in data) {
+				const updateAt=cleanDate(data[i].updated_at)
 				// create a repo card for each repo
 				let repo = document.createElement('div');
 				repo.classList.add('repo');
@@ -54,6 +55,7 @@ function requestUserRepos(username) {
           <h5 id="theme-text"><strong>🔗 URL: <br/></strong></h5> <p id="theme-text"><a href="${data[i].html_url}">${data[i].html_url}</a></p>
           <h5 id="theme-text"><strong>⭐ Stars:</strong> ${data[i].stargazers_count} </h5> 
           <h5 id="theme-text"><strong>🍴 Forks:</strong> ${data[i].forks_count} </h5>
+          <h5 id="theme-text"><strong>⌚ Last updated:</strong> ${updateAt} </h5>
       `;
 				document.getElementById('userRepos').appendChild(repo);
 			}
@@ -104,3 +106,22 @@ function toggleTheme() {
 		label.innerHTML = '🌙 theme';
 	}
 }
+function cleanDate(date) {
+	const months = [
+	  "January",
+	  "February",
+	  "March",
+	  "April",
+	  "May",
+	  "June",
+	  "July",
+	  "August",
+	  "September",
+	  "October",
+	  "November",
+	  "December",
+	];
+	const cleanedDateArray = date.substr(0, 10).split("-");
+	const [year, month, day] = cleanedDateArray;
+	return `${day} ${months[Number(month) - 1]} ${year}`;
+  }
