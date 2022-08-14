@@ -55,7 +55,7 @@ function requestUserRepos(username) {
           <h5 id="theme-text"><strong>🔗 URL: <br/></strong></h5> <p id="theme-text"><a href="${data[i].html_url}">${data[i].html_url}</a></p>
           <h5 id="theme-text"><strong>⭐ Stars:</strong> ${data[i].stargazers_count} </h5> 
           <h5 id="theme-text"><strong>🍴 Forks:</strong> ${data[i].forks_count} </h5>
-          <h5 id="theme-text"><strong>🍴 Last updated:</strong> ${updateAt} </h5>
+          <h5 id="theme-text"><strong>⌚ Last updated:</strong> ${updateAt} </h5>
       `;
 				document.getElementById('userRepos').appendChild(repo);
 			}
